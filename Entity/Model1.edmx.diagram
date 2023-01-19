@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3940fbac5688434aa65d4c5ea78317b6" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.TBLKATEGORI" Width="1.5" PointX="0.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TBLMUSTERI" Width="1.5" PointX="2.625" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TBLPERSONEL" Width="1.5" PointX="5.375" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TBLSATIS" Width="1.5" PointX="5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TBLURUNLER" Width="1.5" PointX="2.75" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_TBLURUNLER_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TBLSATIS_TBLMUSTERI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TBLSATIS_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TBLSATIS_TBLURUNLER" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Model.TBLADMIN" Width="1.5" PointX="0.75" PointY="3.25" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
