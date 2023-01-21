@@ -32,4 +32,4 @@ ve çok daha fazlası...
 
 Nesne Tabanlı Programlama'nın (Object Oriented Programming) inceliklerini
 Veri tabanı kayıt uygulamaları kontrol edebilmeyi
-Dinamik bir web projesi oluşturabilmeyi
+Dinamik bir web projesi oluşturabilmeyi hedefledim
